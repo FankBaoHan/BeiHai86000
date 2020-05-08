@@ -1,0 +1,144 @@
+1208		"MAIN ENGINE F.O. INLET FLOWMETER        //通讯协议中无此点；
+主燃油进口流量"
+
+1209		"MAIN NGINE F.O. OUTLET FLOWMETER      //通讯协议中无此点；
+主机燃油出口流量"
+
+1302		"M/E. MAIN  L.O INLET LOW PRESS.SHD      //无此点硬点输入点，如果在MRC通讯中，未标明拆点明细；
+主机主滑油进口压力低停机"
+
+1303C		"M/E L.O.  PUMP AUTOSTART PRESS. SWITCH //无此点硬点输入点；
+主机滑油泵自动启动压力开关"
+
+1308		"M/E THRUST BEARING OIL TEMP HIGH SHD //无此点输入点，如果在MRC通讯中，未标明拆点明细；
+主机推力轴承油温度高 停机"
+
+1322~1327		"M/E PISTON COOL.OIL CYL.1~6 NO-FLOW  //主机通讯协议中无此点；主机遥控通讯协议里有类似点，轮机号2349~2354；
+主机#1缸活塞冷却滑油  断流"
+
+1329		"M/E T/C L.O INLET PRESS.LOW SHD //无此点硬点输入点，如果在MRC通讯中，未标明拆点明细；
+主机增压器滑油进口压力低停机"
+
+1334		"M/E CROSSHEAD L.O. PUMP AUTOSTART DIFF.PRESS. SWITCH //无此点硬点输入点；
+主机十字头滑油泵自动启动压差开关"
+
+1501		M/E STARTING AIR PRESS. BERFORE SHUT-OFF VALVE //无此点硬点输入点；
+主机阀前起动空气压力 
+
+1506		M/E AIR SPRING  PRESS.,INLET TOO LOW SHUTDOWN //无此点输入点，如果在MRC通讯中，未标明拆点明细；
+主机空气弹簧气源进口压力低低停机 
+
+1801		"M/E. CRANK CASE OIL MIST DENSITY TOO HIGH //无此点硬点输入点；
+主机曲轴箱油雾浓度过高"
+
+1808		"M/E TC SPEED //主机通讯协议中存在#1~#4个转速，取哪一个？
+主机增压器 转速"
+
+2374		"M/E CRANK CASE OIL MIST DENSITY TOO HIGH SLD //无此点硬点输出点；
+主机曲轴箱油雾浓度过高降速"
+
+2375		"M/E PISTON COOL.OIL CYL.1~6 NO-FLOW //无此点硬点输出点，此点输入值从MRC通讯中取，应该不会再输出给MRC了；
+主机#1~6缸活塞冷却滑油  断流降速"
+
+3291		"AUX ENGINE F.O. INLET FLOWMETER //通讯协议中无此点；
+辅机燃油进口流量"
+
+3292		"AUX ENGINE F.O. OUTLET FLOWMETER //通讯协议中无此点；
+辅机燃油出口流量"
+
+3802		"PROPELLER SHAFT POWER //通讯协议中无此点；
+螺旋桨轴功率"
+
+3803		"PROPELLER SHAFT TORQUE //通讯协议中无此点；
+螺旋桨轴扭矩"
+
+3857		"AMS NO.1 UPS AC220V POWER IND
+机舱监测报警#1UPS AC220V电源指示 "
+3859		"AMS NO.2 UPS AC220V POWER IND
+机舱监测报警#2UPS AC220V电源指示 "
+3858A		"AMS NO.3 UPS AC220V POWER FAIL 
+机舱监测报警#3UPS AC220V电源故障 "
+3859A		"AMS NO.3 UPS AC220V POWER IND
+机舱监测报警#3UPS AC220V电源指示 "
+3860		"AMS  NO.2 DC24V POWER FAIL 
+机舱监测报警 2号DC24V电源故障 "
+3861		"AMS  NO.2 DC24V POWER IND
+机舱监测报警2号 DC24V电源指示 "
+3860A		"AMS NO.1 DC24V POWER FAIL 
+机舱监测报警 1号DC24V电源故障 "
+3861A		"AMS  NO.1 DC24V POWER IND
+机舱监测报警 1号DC24V电源指示 "
+3864		"DCM UPS ALARM
+主机数据采集系统 UPS报警"
+
+3900		"HATCH COVER NO.2 HYD. PUMP RUNNING
+舱口盖2号液压泵运行"
+3914		"Optisave SYSTEM COMMON ALARM
+节能系统公共报警"
+3948		"APF COMMON ALARM
+有源电力滤波器公共报警"
+3952		"ECC SAU DC24V LOW INSULATION ALARM
+集控台信号采集箱24伏绝缘低报警"
+3953		"NO.1 SAU DC24V LOW INSULATION ALARM
+1号信号采集箱24伏绝缘低报警"
+3954		"NO.2 SAU DC24V LOW INSULATION ALARM
+2号信号采集箱24伏绝缘低报警"
+3955		"NO.3 SAU DC24V LOW INSULATION ALARM
+3号信号采集箱24伏绝缘低报警"
+3956		"NO.4 SAU DC24V LOW INSULATION ALARM
+4号信号采集箱24伏绝缘低报警"
+
+4122		"BOILER F.O. INLET FLOW
+锅炉燃油进口流量"
+4123		"BOILER F.O.OUTLET FLOW
+锅炉燃油出口流量"
+
+4607		"UV STERILIZER COMMON ALARM
+紫外线消毒器公共报警"
+
+4622		LS.HFO SERV. TANK ELE.HEATING UNIT COMMON ALARM低硫重燃油日用舱电加热模块综合故障报警
+4623		HFO SERV. TANK ELE.HEATING UNIT COMMON ALARM重燃油日用舱电加热模块综合故障报警
+4624		LS.HFO SETT. TANK ELE.HEATING UNIT COMMON ALARM低硫重油澄清舱电加热模块综合故障报警
+4625		HFO SETT. TANK ELE.HEATING UNIT COMMON ALARM重油澄清舱电加热模块综合故障报警
+4626		M/E L.O. SUMP TANK ELE.HEATING UNIT COMMON ALARM主机滑油循环舱电加热模块综合故障报警
+
+5123		"L.S.H.F.O. SETTLING TK. LEVEL LOW
+低硫燃油沉淀舱液位低"
+5124		"L.S.H.F.O. SETTLING TK. LEVEL HIGH
+低硫燃油沉淀舱液位高"
+5128		"H.F.O. SETTLING TK. LEVEL LOW
+燃油沉淀柜 液位低"
+5129		"H.F.O. SETTLING TK. LEVEL HIGH
+燃油沉淀柜 液位高"
+5153		"M.D.O. SETTLING TK. LEVEL LOW
+柴油沉淀柜 液位低"
+5154		"M.D.O. SETTLING TK. LEVEL HIGH 
+柴油沉淀柜液位高"
+
+5249		"STERN TUBE  L.O. DRAIN TK. LEVEL LOW
+尾管滑油泄放舱液位低"
+
+5311		" COOL.S.W. PUMP OUTLET PRESS.
+冷却海水泵出口压力"
+5312		"COOL.S.W. PUMP OUTLET TEMP.
+冷却海水泵出口温度"
+5323C1		"NO.1 L.T. F.W. COOL. PUMP  OUTLET PRESS.
+#1低温冷却淡水泵出口压力"
+5323C2		"NO.2 L.T. F.W. COOL. PUMP  OUTLET PRESS.
+#2低温冷却淡水泵出口压力"
+5323C3		"NO.3  L.T. F.W. COOL. PUMP  OUTLET PRESS.
+#3低温冷却淡水泵出口压力"
+5327C		"M/E F.W. PUMP OUTLET PRESS.
+主机高温淡水泵出口压力"
+
+6401		"SEWAGE TANK LEVEL  HIGH
+生活污水舱液位高"
+6402		"GREY WATER TANK LEVEL  HIGH
+灰水舱液位高"
+6403		"BOILER SOOT COLLECT TANK LEVEL LOW
+锅炉污水（烟灰）收集柜液位低"
+
+7101		"DEAD MAN ALARM
+ 轮机员安全报警"
+
+
